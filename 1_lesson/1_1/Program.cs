@@ -15,3 +15,4 @@ if(num2 == num1*num1)
 
 else 
     Console.WriteLine("нет");
+    
