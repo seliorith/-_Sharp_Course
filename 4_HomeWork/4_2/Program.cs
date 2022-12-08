@@ -20,5 +20,5 @@ int[] Massive(int size)
     return arr;
 }
 
-int[] arr_1 = Massive(int.Parse(Console.ReadLine()));
-Print(arr_1);
+int[] arr = Massive(int.Parse(Console.ReadLine()));
+Print(arr);
