@@ -12,13 +12,11 @@ void Print(double[,] arr)
     for (int i = 0; i < row_size; i++)
     {
         for (int j = 0; j < column_size; j++)
-            Console.Write($" {arr[i, j],4} ");
+            Console.Write($" {arr[i, j],6} ");
         Console.WriteLine();
     }
     Console.WriteLine();
-
 }
-
 
 double[,] MassNums(int row, int column, int from, int to)
 {
@@ -27,7 +25,7 @@ double[,] MassNums(int row, int column, int from, int to)
 
     for (int i = 0; i < row; i++)
         for (int j = 0; j < column; j++)
-            arr[i, j] = Math.Round(n_new.NextDouble() * (from + to) - from, 2);
+            arr[i, j] = Math.Round(n_new.NextDouble() * -10, 2);
 
     return arr;
 }
