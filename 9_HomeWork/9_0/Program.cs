@@ -10,7 +10,7 @@ int SetEvenNaturalNumbers(int num)
         Console.Write($"{num}, ");
         return SetEvenNaturalNumbers(num - 2);
     }
-    else return SetEvenNaturalNumbers(num - 1);
+    return SetEvenNaturalNumbers(num - 1);
 }
 
 SetEvenNaturalNumbers(5);
